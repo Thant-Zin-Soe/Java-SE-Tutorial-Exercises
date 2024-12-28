@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Mahine&apos; to &apos;Machine&apos;&#x0A;- Original project: &apos;Pr15_Abstruction&apos;&#x0A;- Original element: &apos;Mahine&apos;&#x0A;- Renamed element: &apos;Machine&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mahine&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Mahine.java[Mahine" matchStrategy="1" name="Machine" qualified="false" references="true" similarDeclarations="false" stamp="1514976825815" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/macbookpro/Documents/Java/Java SE 8/Java Basic/01_Class And Instance Object/src/ClassAndInstanceObject"/>
+		<item value="D:\JavaExercises\11_Encapsulation"/>
+		<item value="D:\JavaExercises\10_Getter and Setter"/>
+		<item value="D:\JavaExercises\09_Polymorphism"/>
+		<item value="D:\JavaExercises\07_Access Modifier"/>
+		<item value="D:\JavaExercises\06_Inheritance"/>
+		<item value="D:\JavaExercises\05_Packages"/>
+		<item value="D:\JavaExercises\04_Static and Instance"/>
+		<item value="D:\JavaExercises\03_Instance And Local Variable"/>
+		<item value="D:\JavaExercises\03_Instance And Local Variable\src\InsstanceAndLocalVariable"/>
+		<item value="D:\JavaExercises\14_Interface"/>
+		<item value="D:\JavaExercises\13_Math Class"/>
+		<item value="D:\JavaExercises\13_Math Class\src"/>
+		<item value="D:\JavaExercises\12_Scanner"/>
+		<item value="D:\JavaExercises\08_Array"/>
+		<item value="D:\JavaExercises\08_Array\src\demo2"/>
+		<item value="D:\JavaExercises\02_Constructor\src\Constructor"/>
+		<item value="D:\JavaExercises\01_Class And Instance Object"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="394" key="DIALOG_X_ORIGIN"/>
+		<item value="147" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

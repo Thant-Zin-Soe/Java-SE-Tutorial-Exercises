@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Autodetect Encoding</title>
+    <link>http://marketplace.eclipse.org/content/autodetect-encoding</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/WS000000.fw_.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-06-11 21:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-08-06 06:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Shinji%20Kashihara%22&quot;&gt;Shinji Kashihara&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/skashihara/listings&quot; title=&quot;Shinji Kashihara (cypher256)&quot;&gt;Shinji Kashihara (cypher256)&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Show file information for the active editor in the status bar.&lt;br /&gt;
+	 &lt;/p&gt;
+&lt;h2&gt;
+	Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Show file encoding and line ending&lt;/strong&gt;&lt;br /&gt;
+	Line ending (separator) support showing CRLF, CR, LF and Mixed, can also be converted.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Change &quot;Text File Encoding&quot; setting by file property &lt;/strong&gt;&lt;br /&gt;
+	To add the encoding, use Preference &amp;gt; General &amp;gt; Workspace &amp;gt; Text File Encoding &amp;gt; Other.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Autodetect: Automatic detection by juniversalchardet and ICU4J&lt;/li&gt;
+&lt;li&gt;
+		Inheritance: Inherited from folder or project properties, workspace preferences&lt;/li&gt;
+&lt;li&gt;
+		Content Type: Determined from content type setting &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;&#039;Autodetect: Set Automatically&#039; &lt;/strong&gt;&lt;br /&gt;
+	This only applies if the file properties encoding is not specified.&lt;br /&gt;
+	An automatically set is not enabled by default.&lt;/p&gt;
+&lt;p&gt;Add/Remove BOM is disable on Windows.&lt;br /&gt;
+	 &lt;/p&gt;
+&lt;h2&gt;
+	Changes&lt;/h2&gt;
+&lt;p&gt;1.8.4 - 2017.08.05&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Add ICU4J support (juniversalchardet switchable)&lt;/li&gt;
+&lt;li&gt;
+		Disable BOM operations on Windows&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;1.8.0 - 2016.08.13&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Add folder properties hierarchy menu&lt;/li&gt;
+&lt;li&gt;
+		Add &#039;Oepn Setting File in Project&#039; action&lt;/li&gt;
+&lt;li&gt;
+		Fix not shown encoding when editor all closed&lt;/li&gt;
+&lt;li&gt;
+		Improve handle resource in jar&lt;/li&gt;
+&lt;li&gt;
+		Improve charset label in menu&lt;/li&gt;
+&lt;li&gt;
+		Rename plugin name &#039;Encoding StatusBar&#039; to &#039;Autodetct Encoding&#039;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;1.7.0 - 2016.07.28&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Add &#039;Add/Remove BOM&#039; action&lt;/li&gt;
+&lt;li&gt;
+		Add file creation preferences shortcut&lt;/li&gt;
+&lt;li&gt;
+		Improve autodetect&lt;/li&gt;
+&lt;li&gt;
+		Improve determined from content&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;1.6.0 - 2016.07.18&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Add autodetect behavior option&lt;/li&gt;
+&lt;li&gt;
+		Add set automatically or show warning by autodetect&lt;/li&gt;
+&lt;li&gt;
+		Add pom editor Effective pom tab support&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;1.5.0 - 2016.07.03&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Add multi page editor support&lt;/li&gt;
+&lt;li&gt;
+		Add class editor support&lt;/li&gt;
+&lt;li&gt;
+		Add encoding label to menu&lt;/li&gt;
+&lt;li&gt;
+		Add package root properties menu&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Original source: &lt;a href=&quot;/content/file-encoding-info&quot; rel=&quot;nofollow&quot;&gt;File Encoding Info&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 12 Jun 2016 01:10:38 +0000</pubDate>
+ <dc:creator>skashihara</dc:creator>
+ <guid isPermaLink="false">2925771 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/autodetect-encoding#comments</comments>
+  </item>
+  <item>
+    <title>Feature Working Sets</title>
+    <link>http://marketplace.eclipse.org/content/feature-working-sets</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2010-04-19 15:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-08-05 03:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22plugination.org%22&quot;&gt;plugination.org&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mandersenaw1/listings&quot; title=&quot;Mikkel Andersen&quot;&gt;Mikkel Andersen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Generate Working Sets based on Eclipse Features (feature.xml) This feature will add a button, Generate Working Set based on Features, in the Project menu in your eclipse IDE. The button will remove all existing working sets that does not end with a dot (.) and then read the features you have in your target platform or as open projects and create working sets that match the content of those features ( This will only happen if you have the projects in your package explorer) This feature will also add a feature dependency viewer, that displays dependencies between features(using the zest framework) clicking on a feature will highlight the content of the feature. This feature requires: Graphical Editing Framework Zest Visualization Toolkit update site: &lt;a href=&quot;http://download.eclipse.org/tools/gef/updates/releases/&quot; rel=&quot;nofollow&quot;&gt;http://download.eclipse.org/tools/gef/updates/releases/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 19 Apr 2010 19:05:22 +0000</pubDate>
+ <dc:creator>mandersenaw1</dc:creator>
+ <guid isPermaLink="false">1182 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/feature-working-sets#comments</comments>
+  </item>
+  <item>
+    <title>Jmr</title>
+    <link>http://marketplace.eclipse.org/content/jmr</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jmrimg_%E9%80%8F%E6%98%8E.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-08-02 23:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-08-04 08:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jmr%20Team%22&quot;&gt;Jmr Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yuxinwork/listings&quot; title=&quot;Xin Yu&quot;&gt;Xin Yu&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Jet Model Robotization(Jmr) is a all-round code generator plugin for Eclipse that provides code generation for any language project(Java, PhP:, C++ etc.) any framework(struts, spring/springMVC, hiberate etc.).&lt;/p&gt;
+&lt;p&gt;You can transfrom the model from database(like table and view), xml, java class, and use these models to generating any code, testcase, document. it also provides ORM tools to mapping type and Convert tool to convert model easy. &lt;/p&gt;
+&lt;p&gt;You can create the tasks to manage the generation which according to your project and framework, and easily integrate Jmr without changing the project and framework, you just need to create template files(Jet) and Jmr management file to your project.&lt;/p&gt;
+&lt;p&gt;Jmr uses Jet as a template to generate code. JSP-like template files can be edited and transformed into any kind of source artifact including java, html, properties or xml files in a very simple way. Jet is a project under Eclipse m2t, you can get the source from &lt;a href=&quot;http://www.jmr-source.com/jmr_down.htm&quot; rel=&quot;nofollow&quot;&gt;Jmr-Jet&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/modeling/m2t/?project=jet#jet&quot; rel=&quot;nofollow&quot;&gt;M2t-Jet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Home Page: &lt;a href=&quot;http://www.jmr-source.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.jmr-source.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Plugin Site: &lt;a href=&quot;http://www.jmr-source.com/downloads/jmr_1.1.0/site.xml&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.jmr-source.com/downloads/jmr_1.1.0/site.xml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Examples and source: &lt;a href=&quot;http://www.jmr-source.com/jmr_down.htm&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.jmr-source.com/jmr_down.htm&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 03 Aug 2017 03:41:16 +0000</pubDate>
+ <dc:creator>yuxinwork</dc:creator>
+ <guid isPermaLink="false">3581018 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jmr#comments</comments>
+  </item>
+  <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, and VHDL</title>
+    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-08-04 07:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the &lt;strong&gt;&lt;em&gt;e&lt;/em&gt; language, SystemVerilog, Verilog, VHDL, and mixed language projects&lt;/strong&gt; that also provides &lt;strong&gt;Universal Verification Methodology (UVM) support&lt;/strong&gt;. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;
+		Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;
+		Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;
+		Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;
+		Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+	FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Autocomplete&lt;/li&gt;
+&lt;li&gt;
+		Compilation errors signaled on the fly&lt;/li&gt;
+&lt;li&gt;
+		In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;
+		Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;
+		Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;
+		Hyperlinks that help navigate faster in the source code&lt;/li&gt;
+&lt;li&gt;
+		Semantic search&lt;/li&gt;
+&lt;li&gt;
+		Refactoring&lt;/li&gt;
+&lt;li&gt;
+		Macro expansion&lt;/li&gt;
+&lt;li&gt;
+		Class and structural browsing&lt;/li&gt;
+&lt;li&gt;
+		Trace port connections&lt;/li&gt;
+&lt;li&gt;
+		UML diagrams for inspecting and documenting the architecture&lt;/li&gt;
+&lt;li&gt;
+		Module flow diagrams for inspecting and documenting a module structure&lt;/li&gt;
+&lt;li&gt;
+		Automated documentation extraction&lt;/li&gt;
+&lt;li&gt;
+		UVM support and compliance checking&lt;/li&gt;
+&lt;li&gt;
+		Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;
+		Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
+	RESOURCES &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/Design_and_Verification_Tools_Eclipse_IDE.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/datasheet/AMIQ_DVT_Datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://www.youtube.com/user/dvteclipse&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/UVM_Support_in_DVT_Eclipse.html&quot; rel=&quot;nofollow&quot;&gt;UVM Support in DVT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/DVT_Debugger_Add-On_Module.html&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl#comments</comments>
+  </item>
+  <item>
+    <title>Ethernet POWERLINK openCONFIGURATOR</title>
+    <link>http://marketplace.eclipse.org/content/ethernet-powerlink-openconfigurator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/epl_logo_2.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-11-12 03:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-08-04 04:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Kalycito%20Infotech%20Pvt%20Ltd.%20%26%20Bernecker%20%2B%20Rainer%20Industrie-Elektronik%20Ges.m.b.H.%22&quot;&gt;Kalycito Infotech Pvt Ltd. &amp;amp; Bernecker + Rainer Industrie-Elektronik Ges.m.b.H.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/cruecker/listings&quot; title=&quot;Christoph Ruecker&quot;&gt;Christoph Ruecker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ethernet POWERLINK &lt;a href=&quot;https://sourceforge.net/projects/openconf/&quot; rel=&quot;nofollow&quot;&gt;openCONFIGURATOR&lt;/a&gt; is an open-source configuration framework for easy setup, configuration and maintenance of any &lt;a href=&quot;http://www.ethernet-powerlink.org/&quot; rel=&quot;nofollow&quot;&gt;Ethernet POWERLINK&lt;/a&gt; network. It ideally complements &lt;a href=&quot;http://openpowerlink.sourceforge.net/&quot; rel=&quot;nofollow&quot;&gt;openPOWERLINK&lt;/a&gt;, the open source POWERLINK protocol stack for master and slave.&lt;/p&gt;
+&lt;p&gt;For more information please take a look at the &lt;a href=&quot;https://sourceforge.net/projects/openconf/files/openCONFIGURATOR%20eclipse%20plugin/2.2.1/openconfigurator-plugin-user-manual_V2.2.1.pdf&quot; rel=&quot;nofollow&quot;&gt;user manual&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Step-by-step video tutorials:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://goo.gl/l7eTrC&quot; rel=&quot;nofollow&quot;&gt;Part 1 - Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://goo.gl/hHY12A&quot; rel=&quot;nofollow&quot;&gt;Part 2 - RMN configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://goo.gl/8gsRPq&quot; rel=&quot;nofollow&quot;&gt;Part 3 - PDO mapping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://goo.gl/Xjuqjz&quot; rel=&quot;nofollow&quot;&gt;Part 4 - Parameter configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://goo.gl/PGCgCk&quot; rel=&quot;nofollow&quot;&gt;Part 5 - Modular CN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;It supports the parameter configuration concepts developed within the EPSG DS 311 V1.1.0 and for the modular device concepts developed within the EPSG DS 311 V.1.2.0.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 12 Nov 2015 08:06:41 +0000</pubDate>
+ <dc:creator>cruecker</dc:creator>
+ <guid isPermaLink="false">2604730 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/ethernet-powerlink-openconfigurator#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>http://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-03 17:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This plugin is just a bash script editor.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;
+		Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;
+		Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;
+		Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;
+		Small (70 kb)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  <item>
+    <title>Run-Jetty-Run</title>
+    <link>http://marketplace.eclipse.org/content/run-jetty-run</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_9.png&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2011-05-25 09:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-03 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22RunJettyRun%22&quot;&gt;RunJettyRun&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twangqjc/listings&quot; title=&quot;Tony Wang&quot;&gt;Tony Wang&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Our project home page &lt;a href=&quot;https://github.com/xzer/run-jetty-run&quot; rel=&quot;nofollow&quot;&gt;https://github.com/xzer/run-jetty-run&lt;/a&gt; Getting Start Guide &lt;a href=&quot;https://github.com/xzer/run-jetty-run/wiki/GettingStarted&quot; rel=&quot;nofollow&quot;&gt;https://github.com/xzer/run-jetty-run/wiki/GettingStarted&lt;/a&gt; Why this plugin? Because running a web application in Eclipse should be as simple as &#039;clicking run&#039;. No additional setup required. Have fun!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 25 May 2011 13:09:17 +0000</pubDate>
+ <dc:creator>twangqjc</dc:creator>
+ <guid isPermaLink="false">56251 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/run-jetty-run#comments</comments>
+  </item>
+  <item>
+    <title>Bonita BPM </title>
+    <link>http://marketplace.eclipse.org/content/bonita-bpm</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Bonita_BPM_by%20Bonitasoft-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2009-12-17 10:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-03 09:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bonitasoft%22&quot;&gt;Bonitasoft&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnamervj/listings&quot; title=&quot;Bonitasoft Community&quot;&gt;Bonitasoft Community&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Bonita BPM is an intuitive and powerful Business Process Management (BPM) solution for creating and executing process based applications. Bonita BPM combines three solutions in one: a user-friendly Studio for process modeling and application development, an execution engine, and a breakthrough end-user web interface. With Bonita Studio , an Eclipse-based graphical interface, users can draw their processes as naturally as on a white board. They can then define process actors &amp;amp; data, and link them easily with their Information Systems.      Bonita Studio comes with more than 100 built in and contributed connectors for many commonly used commercial and open-source database, messaging system, ERP, CRM, ECM and more. Examples: AD, Alfresco, BIRT, eXo, Jaspersoft, LDAP, Nuxeo, SAP, Sharepoint, SugarCRM, Talend ... Bonita Studio also provides a drag-n-drop application builder helping users design their web-forms easily - and add specific code when needed to achieve full customization. When the application is designed, a simple click is enough to deploy it - either in the built-in test environment, or in production mode. Other Studio features include process simulation, documentation generation, report and dashboard design. Bonita Execution Engine is a powerful and scalable Java workflow engine. It is flexible enough to adapt easily to any Information Systems architecture, from simple to complex. And it&#039;s powerful enough to support intensive workload.     &lt;/p&gt;
+&lt;p&gt;Bonita Portal is a BPM web-portal conceived to be as simple to use as an e-mail inbox allowing end-user to manage their processes and daily tasks.&lt;/p&gt;
+&lt;p&gt;Bonita Portal also give authorized users all the means to monitor and administrate processes execution.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bonitasoft.com/how-we-do-it/downloads?utm_source=eclipse_market_place&amp;amp;utm_medium=dedicated_page&amp;amp;utm_content=product_presentation&amp;amp;utm_campaign=ecosystem_network&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 17 Dec 2009 15:35:48 +0000</pubDate>
+ <dc:creator>mmisingnamervj</dc:creator>
+ <guid isPermaLink="false">1092 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bonita-bpm#comments</comments>
+  </item>
+  <item>
+    <title>JBC</title>
+    <link>http://marketplace.eclipse.org/content/jbc</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-08-02 08:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-08-03 08:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22itemis%20AG%22&quot;&gt;itemis AG&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/adeutsch/listings&quot; title=&quot;Arne Deutsch&quot;&gt;Arne Deutsch&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JBC is an eclipse plugin that enables the developer to view and edit files containing java byte code (*.class) inside eclipse. This is done in a way such that a specialized editor opens the .class file and displays the binary code as a textual DSL whereas keywords intersparse the byte sequences. Changing the text and saving then writes back the bytes to the .class file.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 02 Aug 2017 12:15:45 +0000</pubDate>
+ <dc:creator>adeutsch</dc:creator>
+ <guid isPermaLink="false">3579717 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jbc#comments</comments>
+  </item>
+  <item>
+    <title>Whole Language Workbench</title>
+    <link>http://marketplace.eclipse.org/content/whole-language-workbench</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/wholelogo.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2014-03-21 13:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-08-02 15:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Riccardo%20Solmi%22&quot;&gt;Riccardo Solmi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rsolmi510/listings&quot; title=&quot;Riccardo Solmi&quot;&gt;Riccardo Solmi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Whole Language Workbench is a technology for engineering the production of software. We think that programming is an activity concerning the development of domain languages; so, we provide a Language Workbench for developing new languages, manipulating them using domain notations and transforming them using a model driven approach. Using the Whole Language Workbench, the problem domain experts can work together with the programming experts for the development of software products. The languages boundled with the Whole Platform include: - modeling languages; - query and transformation languages; - integration languages for grammars, XSD, RDB and Java libraries; and popular languages such as Java, Objective C and XML.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 21 Mar 2014 17:38:38 +0000</pubDate>
+ <dc:creator>rsolmi510</dc:creator>
+ <guid isPermaLink="false">1569564 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/whole-language-workbench#comments</comments>
+  </item>
+  </channel>
+</rss>

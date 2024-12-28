@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;App.java&apos; to &apos;05_To Do List/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;P05_To Do List&apos;&#x0D;&#x0A;- Destination element: &apos;05_To Do List/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;App.java&apos;" description="Copy compilation unit" destination="=05_To Do List/src&lt;" element1="/src&lt;{App.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1503449824020" units="1" version="1.0"/>
+</session>

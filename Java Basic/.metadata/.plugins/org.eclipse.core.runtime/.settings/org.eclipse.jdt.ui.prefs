@@ -1,0 +1,22 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javafx.geometry.Pos"/></lhs><lhs name\="java.io.OutputStreamWriter"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.Writer"><rhs name\="java.io.FileWriter"/><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.io.FileWriter"/><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileWriter"/><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.ObjectOutputStream"/><rhs name\="java.io.FileOutputStream"/><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileWriter"/><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.ObjectOutputStream"/><rhs name\="java.io.FileOutputStream"/><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileWriter"/><rhs name\="java.io.BufferedWriter"/><rhs name\="java.io.ObjectOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.FileWriter"><rhs name\="java.io.FileWriter"/></lhs><lhs name\="java.io.BufferedWriter"><rhs name\="java.io.BufferedWriter"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.ObjectOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.FileOutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.ObjectOutput"><rhs name\="java.io.ObjectOutputStream"/></lhs><lhs name\="java.io.DataOutput"><rhs name\="java.io.ObjectOutputStream"/></lhs><lhs name\="java.io.ObjectStreamConstants"><rhs name\="java.io.ObjectOutputStream"/><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.io.ObjectOutputStream"><rhs name\="java.io.ObjectOutputStream"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.io.FileInputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.ObjectInput"><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.io.DataInput"><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="java.io.ObjectInputStream"><rhs name\="java.io.ObjectInputStream"/></lhs><lhs name\="Machine"><rhs name\="Machine"/></lhs><lhs name\="demo1.Machine"><rhs name\="demo1.Machine"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+markOccurrences=false
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+spelling_locale=en_GB
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Worker.java&apos; to &apos;14_Multiple Lock/src&apos;&#x0D;&#x0A;- Original project: &apos;13_Synchronized&apos;&#x0D;&#x0A;- Destination element: &apos;14_Multiple Lock/src&apos;&#x0D;&#x0A;- Original element: &apos;Worker.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=14_Multiple Lock/src" element1="/src&lt;{Worker.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1501468576222" units="1" version="1.0"/>
+</session>
